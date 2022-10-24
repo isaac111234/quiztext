@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(15, 15, 15), rgb(18, 85, 227));
+}
+.home{
+    color: white;
+}
+.rop input{
+   border: none;
+   background: rgb(0, 110, 255);
+   color: white;
+   padding: 5px;
+   width: 10%;
+   border-radius: 3px;
+}
+.rop{
+   text-align: center;
+   margin-bottom: 10px;
+   
+}
+.name{
+    color: white;
+    width: 20px;
+   
+}
+@media(max-width:1000px){
+    .rop input{
+        border: none;
+        background: rgb(0, 110, 255);
+        color: white;
+        padding: 5px;
+        width: 40%;
+        border-radius: 3px;
+     }
+     .ala{
+        padding-bottom: 5px;
+     }
+}
